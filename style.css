@@ -1,0 +1,102 @@
+
+.General{
+    border-radius: 2mm;
+    margin-bottom: 5px;
+    border: solid 1px gainsboro;
+    padding:5px;
+    background-color:white ;
+}
+.LogoPic{
+    width: 150px;
+    height: 100px;  
+}
+.Hotels{
+    text-align: center;
+    font-size: x-large;
+}
+.Item{
+    display:flex;
+    justify-content: space-between;
+    padding: 25px;
+    border: solid 1px gainsboro;
+    border-radius: 2mm;
+    margin-bottom: 5px;
+    background-color: white ;
+}
+.ItemND{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+}
+.Name{
+    font-size: 14pt;
+    font-weight: bold;
+    justify-items: left;  
+}
+.Description{
+    
+    color: rgba(128, 128, 128, 0.637);
+}
+.HotelPic{
+width: 150px;
+height: 100px;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Reservation{     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+}
+.Button1{
+    padding: 6px 12px;
+    border-radius: 1mm;
+    box-shadow: dimgrey 0px 1px 0px 0px;
+    cursor: pointer;
+}
+.Button1:hover{
+    cursor: pointer;
+}
+.Button1:active{
+    position: relative;
+    top:1px;
+} 
+.PricePN{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20pt;
+}
+.Price{
+    display: block;
+    margin: auto;
+}
+.Nigths{
+    margin:16px;
+}
+.Tel{
+    size: 16pt;
+}
+.Link{
+    size:16pt;
+}
+.Footer{
+    border: solid 1px gainsboro;
+    padding: 10px;
+}
+.TotalPrice{
+    border-radius: 2mm;
+    font-size: 20pt;
+}
+.Stars{
+    max-width: 50px;
+}
